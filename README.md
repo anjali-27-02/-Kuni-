@@ -48,18 +48,19 @@ Deep Learning
 Python
 Solidity
 
-# assumptions
+# Assumptions
 
 we expect municipal corporations to co-operate with us as we don't have many requirements from the govenment
 
-# licensed softwares
+# Licensed softwares
 
 no licensed softwares are used 
 
-# software integrations
+# Software integrations
 
 we have integrated metamask into our website to login user with their crypto wallet
 
-# data sets and platforms
+# Data sets and platforms
 
 we have taken all our datasets from kaggle
+https://www.kaggle.com/datasets/maartenvandevelde/marine-litter-watch-19502021?select=MLW_Data.csv
