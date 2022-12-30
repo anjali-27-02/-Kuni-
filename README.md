@@ -42,11 +42,11 @@ to overhead cost,but we definetly come up with a solution for this.
 
 # Tech stacks
 
-HTML - CSS - JS
-Machine Learning
-Deep Learning
-Python
-Solidity
+- HTML - CSS - JS
+- Machine Learning
+- Deep Learning
+- Python
+- Solidity
 
 # Assumptions
 
