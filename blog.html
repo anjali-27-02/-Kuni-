@@ -1,44 +1,76 @@
-<html>
-   <head>
-      <title>Kuni-Blog</title>
-      <link rel="icon"  href="https://image.flaticon.com/icons/svg/13/13706.svg" type="image/gif" sizes="16x16">
-       <link rel="stylesheet" href="main.css" >
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-  awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="intro">
-<p id="name" name="intro">WELCOME TO OUR BLOG.</p>
-</div>
-<div>
-    <br>
-      <center>
-         <h1>Upcoming Events</h1>
-      </center>
-    <br>
-  </div>
-  <div class="blogs">
-    <div class="column">
+    <!-- <video autoplay loop muted plays-inline class="back-video">
+        <source src="images/Pexels Videos.mp4" type ="video/mp4">
+    </video> -->
+    <section class="sub-header">
+        <nav>
+              <a href=""><img src="logoforbeach.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="About.html">AboutUs</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">ContactUs</a>
+                    </li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>WE WELCOME YOU.</h1>
+        <br>
+       
+    </section>
+    <div>
+        <br>
+          <center>
+             <h1>Upcoming Events</h1>
+          </center>
+        <br>
+      </div>
+      <div class="blogs">
+        <div class="column">
+          <div class="card">
+             <a href="post1.html">
+                <img src="https://img.freepik.com/free-vector/retro-futuristic-music-poster-template_23-2148278284.jpg?w=740&t=st=1672324382~exp=1672324982~hmac=0f3829caf98a32c348f94c8df0d45df8de70a9af9b55a6439f74f78e1360336b" alt="image" height="300" width="400"/></a>
+           <h3>Event 1</h3>
+           <p></p>
+        </div>
+       </div>
+      <div class="column">
       <div class="card">
-         <a href="post1.html">
-            <img src="https://img.freepik.com/free-vector/retro-futuristic-music-poster-template_23-2148278284.jpg?w=740&t=st=1672331718~exp=1672332318~hmac=5af14120d2037375021c4469f745ff2353ac43f36707a49c8bee2917ccc6babc" alt="image" height="300" width="400"/></a>
-       <h3>Event 1</h3>
-       <p>Some text</p>
-    </div>
-   </div>
-  <div class="column">
-  <div class="card">
-  <img src="https://img.freepik.com/free-vector/summer-party-invitation-with-beach-plants_23-2147813399.jpg?w=740&t=st=1672331638~exp=1672332238~hmac=3768246f0c1ddc4a5ed5da9368df5612f0ae8f4c2b5d5519f2ef811316f1a5c6" alt="image" height="300" width="400"/>
-  <h3>Event 2</h3>
-  <p>Some text</p>
-  </div>
-  </div>
-  <div class="column">
-  <div class="card">
-  <img src="2480.jpg" alt="image" height="300" width="400"/>
-  <h3>Event 3</h3>
-  <p>Some text</p>
-  </div>
-  </div>
-  </div>
+      <img src="https://img.freepik.com/free-vector/summer-party-invitation-with-beach-plants_23-2147813399.jpg?w=740&t=st=1672331638~exp=1672332238~hmac=3768246f0c1ddc4a5ed5da9368df5612f0ae8f4c2b5d5519f2ef811316f1a5c6" alt="image" height="300" width="400"/>
+      <h3>Event 2</h3>
+      <p></p>
+      </div>
+      </div>
+      <div class="column">
+      <div class="card">
+      <img src="https://img.freepik.com/free-vector/summer-party-poster_23-2147822383.jpg?size=338&ext=jpg" alt="image" height="300" width="400"/>
+      <h3>Event 3</h3>
+      <p></p>
+      </div>
+      </div>
+      </div>
+    
+
+    
 </body>
 </html>
